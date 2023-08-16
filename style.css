@@ -81,14 +81,14 @@ button{
 }
 
 .cars{
-    height: 90px;
-    width: 90px;
+    height: 200px;
+    width: 200px;
     border-radius: 8%;
 }
 
 .card{
-    height: 90px;
-    width: 90px;
+    height: 200px;
+    width: 200px;
     border: 3px solid #3882F6;
     border-radius: 10%;
 }
@@ -107,12 +107,13 @@ button{
     display: flex;
     justify-content: center;
     padding: 10px;
-    gap: 25px;
+    gap: 140px;
 }
 
 .quote-container{
     background-color: #E5E7EB;
     padding: 120px;
+    margin-top: 100px;
 }
 
 .quote{
