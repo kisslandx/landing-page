@@ -4,6 +4,22 @@ body{
     box-sizing: border-box;
 }
 
+h2{
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    color: lightgrey;
+}
+
+#car1{
+    height: 200px;
+    width: 350px;
+    padding: 0;
+    border-radius: 10%;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -16,10 +32,132 @@ a{
     color: #E5E7EB;
 }
 
+
+.header-container{
+    background-color: black;
+}
+
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1F2937;
 }
 
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    color: whitesmoke;
+    gap: 20vw;
+}
+
+.header.right{
+    display: flex;
+    align-items: center;
+}
+.gtr{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #3882F6;
+    border:1px solid white;
+    padding: 5px;
+    width: 100px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.cars{
+    height: 90px;
+    width: 90px;
+    border-radius: 8%;
+}
+
+.card{
+    height: 90px;
+    width: 90px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+}
+
+.main-container{
+    margin-top: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 25px;
+}
+
+.quote-container{
+    background-color: #E5E7EB;
+    padding: 120px;
+}
+
+.quote{
+    display: flex;
+    font-size: 26px;
+    color: #1F2937;
+    justify-content: center;
+    font-style: italic;
+}
+
+.author{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.signup-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+    height: 100px;
+    width: 50vw;
+    background-color:black;
+}
+
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    border-radius: 20%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 30px;
+    font-size: 14px;
+    color: white;
+
+}
